@@ -1,10 +1,11 @@
 from flask import Flask, send_from_directory, request, jsonify, redirect
 import os
 import requests
-# from flask_cors import CORS
+from flask_cors import CORS
 
 
 app = Flask(__name__, static_folder='.')
+CORS(app)
 
 API_KEY = '8600f8cf4b9c8244a4d2eacf7c7ca399'
 
