@@ -11,7 +11,7 @@ API_KEY = '8600f8cf4b9c8244a4d2eacf7c7ca399'
 @app.route('/')
 def index():
     # return send_from_directory('.', 'index.html')
-    return redirect("http://54.163.211.85/")
+    return redirect("http://18.215.182.190/")
 
 @app.route('/<path:path>')
 def send_files(path):
