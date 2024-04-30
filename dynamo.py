@@ -56,3 +56,4 @@ def read_logs():
 # add_log('New York')
 # delete_log('a2047e42-d6ae-47a1-ad99-4462cd6ebc97')
 read_logs()
+#lets see if this works
