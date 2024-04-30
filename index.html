@@ -34,7 +34,7 @@
         document.getElementById('weatherForm').addEventListener('submit', function(event) {
             event.preventDefault();
             var city = document.getElementById('cityInput').value;
-            fetch('weather-dashboard-backend.azurewebsites.net/weather?city=' + city)
+            fetch('https://weather-dashboard-backend.azurewebsites.net/weather?city=' + city)
                 .then(response => {
                     if (!response.ok) {
                         throw new Error('City not found');
